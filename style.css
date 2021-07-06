@@ -85,25 +85,27 @@ a.btn {
     color: #676767;
     text-align: justify;
     margin-bottom: 70px;
+    margin-right: 95px;
 }
 
 
 /*      Section 3 Start        */
 
-.recipiesTitle {
+
+.secTitle {
     margin-top: 65px;
     text-align: center;
 }
 
-.recipiesTitle h1 {
+.secTitle h1 {
     font-size: 37px;
     margin-bottom: 25px;
     color: #585858;
 }
 
-.recipiesTitle p {
+.secTitle p {
     color: #616161;
-    width: 600px;
+    width: 700px;
     margin: auto;
     font-size: 16px;
     margin-bottom: 40px;
@@ -135,6 +137,47 @@ a.btn {
 }
 
 /*      Section 4 Start        */
+
+
+
+.allblogs {
+    display: flex;
+    margin: 0px 74px 80px 74px;
+}
+
+.singleVlogs {
+    width: 42%;
+    border-radius: 16px;
+    padding: 4%;
+    margin: 30px;
+    background: #ffffff;
+    border: 1px solid #d4d4d4;
+    box-shadow: 1px 1px 18px 4px #bfbfbf;
+}
+
+.singleVlogs img {
+    border-radius: 20px;
+    border: 1px solid #a2a2a2;
+}
+
+.singleVlogs h2 {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.singleVlogs p {
+    font-weight: 600;
+    color: #797979;
+    line-height: 31px;
+}
+
+
+
+
+
+
+/*      Section 5 Start        */
 
 
 section.countingSec {
@@ -170,8 +213,7 @@ section.countingSec {
 }
 
 
-
-/*      Section 5 Start        */
+/*      Section 6 Start        */
 
 footer.footerSec {
     background: #333;
